@@ -1,0 +1,199 @@
+/*********************************************************************************
+
+	Template Name: Women Meet Tech
+	Description: //
+	Version: 1.0
+
+	Note: This is custom css.
+
+**********************************************************************************/
+
+.marginright0 {
+    margin-right: 0 !important;
+}
+
+.header-wrapper {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+}
+.header-left {
+    flex-basis: 20%;
+    display: flex;
+    align-items: center;
+}
+.header-right {
+    flex-basis: 20%;
+    display: flex;
+    margin: 0 -12px;
+}
+.mainmenu-wrapper {
+    flex-grow: 1;
+    padding-right: 30px;
+}
+nav ul, nav ol {
+    list-style: none;
+    list-style-image: none;
+}
+.mainmenu-wrapper .page_nav ul.mainmenu {
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0;
+}
+.page_nav ul.mainmenu {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+.mainmenu-wrapper .page_nav ul.mainmenu li.level-1 > a {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    font-weight: 600;
+    line-height: 1.18;
+    font-size: 16px;
+    color: #222222;
+    padding-top: 41px;
+    padding-bottom: 41px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.header-default .logo img {
+    max-height: 70px;
+}
+
+.button{
+    border-radius: 20px;
+    padding: 0 36px;
+    height: 40px;
+    display: inline-block;
+    box-shadow: 1px 3px 3px #ddd;
+}
+
+.button a {
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 13px;
+    line-height: 40px;
+}
+.primary-button {
+    background: #3040C4;
+}
+.secondary-button {
+    background: white
+}
+.secondary-button a {
+    color: #3040C4
+}
+
+/*Section top-banner*/
+
+#top-banner .heading{
+    color: #051F61;
+    margin-top: 30px
+}
+#top-banner .heading p {
+    font-weight: lighter;
+    padding: 10px 0 50px 0
+}
+
+/*Section 1*/
+#section1 {
+    padding: 60px 0;
+    text-align: center
+}
+
+#section1 .heading {
+    margin-bottom: 50px;
+    color: #051F61
+}
+#section1 .content {
+    color: #051F61
+}
+#section1 .content img {
+    margin-bottom: 30px;
+}
+#section1 .content h3 {
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: bold;
+}
+#section1 .content p {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+/*Section 2*/
+#section2 {
+    background-color: #F8FCFF;
+}
+#section2 .heading {
+    color: #051F61;
+    margin-bottom: 50px;
+    padding-top: 30px;
+    text-align: center
+}
+#section2 .heading h3 {
+    padding-bottom: 30px;
+}
+#section2 .content {
+    color: #051F61;
+}
+#section2 .content .row {
+    margin-bottom: 30px;
+}
+#section2 .content .item {
+    display: inline-grid;
+    grid-template-columns: auto auto;
+}
+#section2 .content .item .circle {
+    margin-right: 15px;
+    margin-top: 5px;
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    background-image: linear-gradient(-180deg, #3095CE 0%, #5A5DD8 100%);
+    box-shadow: 1px 3px 10px 2px #CCDFF6;
+}
+#section2 .content h4 {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: normal;
+}
+#section2 .content p {
+    font-size: 12px;
+    line-height: 21px;
+}
+
+/*Section 3*/
+#section3 {
+    padding: 50px 0
+}
+#section3 .heading {
+    color: #051F61;
+    margin-bottom: 50px;
+    padding-top: 30px;
+}
+#section3 .form-contact {
+    background: #FFFFFF;
+    box-shadow: 0 2px 9px 0 rgba(227,237,248,0.63);
+    border-radius: 14px;
+    text-align: center;
+    padding: 0 50px 30px 50px;
+    margin-top: 20px;
+}
+footer {
+    border-top: 1px solid #f6f6f6;
+    background-image: linear-gradient(-180deg, #FFFFFF 0%, #F7FAFE 37%);
+    padding: 50px 0
+}
+footer a {
+    color: #999999;
+    font-weight: lighter
+}
+footer .footer-menu ul {
+    list-style: none;
+    padding: 0;
+}
